@@ -1,5 +1,5 @@
 import os
-import gui.py
+import gui
 
 def listPDFs(folder_path):
     pdf_files = []
