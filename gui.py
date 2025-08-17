@@ -1,8 +1,13 @@
-import tkinter as tk
+import customtkinter as tk
+from tkinter import filedialog
 
-main_window = tk.Tk()
-main_window.title("My Application")
-main_window.geometry("800x600")
+def startMainScreen():
+    main_window = tk.Tk()
+    main_window.button
+    main_window.title("My Application")
+    main_window.geometry("800x600")
+    main_window.mainloop()
 
 
-main_window.mainloop()
+def getFileDirectory():
+    directory = filedialog.askdirectory()
